@@ -49,10 +49,7 @@ int main() {
 
     int ans = celebrity(mat, n);
 
-    if (ans == -1)
-        cout << "No Celebrity";
-    else
-        cout << "Celebrity is person " << ans;
+    cout<<ans;
 
     return 0;
 }
